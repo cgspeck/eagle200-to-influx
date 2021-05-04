@@ -1,0 +1,8 @@
+version: "3.7"
+services:
+  poller:
+    image: cgspeck/eagle200-to-influx:latest
+    container_name: eagle200-poller
+    restart: unless-stopped
+    network_mode: bridge
+    env_file: env

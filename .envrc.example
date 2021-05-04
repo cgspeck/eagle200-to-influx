@@ -1,0 +1,9 @@
+export INFLUXDB_V2_TOKEN=set-me
+export INFLUXDB_V2_URL=set-me
+export INFLUXDB_V2_ORG=set-me
+export INFLUXDB_V2_SSL_CA_CERT=set-me
+# export INFLUX_BUCKET=eagle200
+
+export GATEWAY_IP=set-me
+export CLOUDID=set-me
+export INSTALLATION_CODE=set-me
